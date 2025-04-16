@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .bg-image {
+    background-image: url('fotos/feira.jpg'); /* substitua com a imagem desejada */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .custom-navbar {
+    background-color: #200267; /* roxo escuro */
+    opacity: 0.9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+  }
+  
