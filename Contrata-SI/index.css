@@ -1,22 +1,40 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-  
-  .bg-image {
-    background-image: url('fotos/feira.jpg'); /* substitua com a imagem desejada */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
-  
-  .custom-navbar {
-    background-color: #200267; /* roxo escuro */
-    opacity: 0.9;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Arial', sans-serif;
-    font-size: 1.2rem;
-  }
-  
+.hero-section {
+  background-color: #5A3E36;
+  color: #fff;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 30px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.search-bar {
+  background-color: #e0d4c9;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.search-bar::placeholder {
+  color: #7b6f66;
+}
+
+.search-icon {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  color: #7b6f66;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #e0d4c9;
+}
+
+.highlight {
+  font-weight: bold;
+}
