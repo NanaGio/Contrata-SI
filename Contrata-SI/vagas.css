@@ -1,0 +1,18 @@
+body.bg-vagas {
+    background-color: #C6A987; /* Cor bege da imagem de fundo */
+    color: #fff;
+  }
+  
+  .bg-card {
+    background-color: #5A3E36; /* Marrom dos cards */
+    color: #fff;
+  }
+  
+  .card a {
+    font-size: 0.9rem;
+  }
+  
+  .card p {
+    margin-bottom: 0.5rem;
+  }
+  
