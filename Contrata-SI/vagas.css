@@ -16,3 +16,6 @@ body.bg-vagas {
     margin-bottom: 0.5rem;
   }
   
+  .row g-4 {
+    color: white;
+  }
