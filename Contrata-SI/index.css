@@ -39,3 +39,10 @@
   font-weight: bold;
 }
 
+.vagas-img {
+  top: 20px;       /* ajuste a posição vertical */
+  left: 20px;      /* ajuste a posição horizontal */
+  width: 150px;    /* tamanho da imagem vagas.png */
+}
+
+
