@@ -19,3 +19,17 @@ body.bg-vagas {
   .row g-4 {
     color: white;
   }
+
+  .modal-content {
+  background-color: #dec2a3;
+  color: #3a2b27;
+}
+
+.modal-content input::placeholder {
+  color: #9a7e6a;
+}
+
+.btn-dark {
+  background-color: #3a2b27;
+  border: none;
+}
